@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size:18px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(27, 27, 27, 0.903);
+
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+    padding: 15px;
+}
+
+.baseInfo {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dayInfo {
+    width: 55%;
+    margin-bottom: 1.5%;
+}
+
+.weekInfo {
+    width: 250px;
+    margin: 0;
+    padding: 10px;
+    align-self: flex-start;
+}
+
+.mainInfo {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2.5%;
+    border: 2px solid #0099cc;
+    border-radius: 20px;
+    background-color: #8af9f9;
+}
+
+.mainInfo div{
+    font-size: 22px;
+    padding: 2.5%;
+    border-left: 2px solid #0099cc;
+    border-radius: 10px;
+    color:#cd5c5c ;
+    font-weight: 900;
+}
+
+.mainInfo h2{
+    font-size: 22px;
+    margin: 0px;
+}
+
+.mainInfo h2:hover{
+    opacity: 0.5;
+}

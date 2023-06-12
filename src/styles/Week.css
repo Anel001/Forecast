@@ -1,0 +1,33 @@
+.main {
+    border: 2px solid gray;
+}
+
+.weekTitle{
+    text-align: center;
+    padding: 5%;
+    border-bottom: 2px solid gray;
+    background-color: #dcffff;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.day {
+    width: 85%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.elem{
+    padding: 0px 8px;
+}
+
+.elem1 {
+    float: left;
+}
